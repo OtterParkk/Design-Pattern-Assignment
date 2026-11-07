@@ -45,6 +45,8 @@ void main() {
                         msgStack.pop();
                     }
                 }
+            default:
+                return;
         }
     }
 }
